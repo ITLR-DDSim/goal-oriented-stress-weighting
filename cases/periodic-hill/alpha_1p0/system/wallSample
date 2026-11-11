@@ -1,0 +1,13 @@
+type            surfaces;
+libs            ("libsampling.so");
+surfaceFormat   raw;
+fields          ( ".*" );
+surfaces
+(
+    bottomWall
+    {
+        type        patch;
+        patches     ( bottomWall );
+        interpolate false;
+    }
+);

@@ -4,7 +4,7 @@ Supporting repository for **Goal-Oriented Weighting of Reynolds-Stress Data for 
 
 The method uses an offline adjoint calculation to identify Reynolds-stress data that influence a selected flow quantity. These sensitivities are converted into fixed weights for turbulence-model training.
 
-This repository is being prepared to share the associated solvers, weight-construction procedure and selected case set-ups. **Currently, it contains folder descriptions only; code and case files are not yet available.**
+This repository is being prepared to share the associated solvers, weight-construction procedure and selected case set-ups. **The baseline case set-ups in [`cases/`](cases/README.md) are available; solver and weight-construction code are not yet available.**
 
 ## Repository structure
 
@@ -23,9 +23,9 @@ Each directory has a README describing its intended contents.
 | Configuration | Training condition | Test conditions |
 | --- | --- | --- |
 | Square duct | Re_b = 2600 | Re_b = 1100 and 1800 |
-| Periodic hill | alpha = 1.5 | alpha = 1.0 and 1.2 |
+| Periodic hill | alpha = 1.2 | alpha = 1.0 and 1.5 |
 
-The planned baseline case files use the k–omega model in OpenFOAM v1912. Weight-construction scripts require Python 3 and NumPy.
+The baseline case files use the k–omega model in OpenFOAM v1912. Weight-construction scripts require Python 3 and NumPy.
 
 ## Scope and data access
 
