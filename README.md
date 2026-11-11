@@ -22,7 +22,7 @@ Each directory has a README describing its intended contents.
 
 | Configuration | Training condition | Test conditions |
 | --- | --- | --- |
-| Square duct | Re_b = 2600 | Re_b = 1100 and 1800 |
+| Square duct | Re_b = 2600 | Re_b = 1100, 1800 and 3500 |
 | Periodic hill | alpha = 1.2 | alpha = 1.0 and 1.5 |
 
 The baseline case files use the k–omega model in OpenFOAM v1912. Weight-construction scripts require Python 3 and NumPy.
